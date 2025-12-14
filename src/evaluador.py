@@ -148,11 +148,11 @@ def evaluar(num_rondas: int = 50):
     empates = 0
 
     for ronda in range(1, num_rondas + 1):
-        # La IA decide su jugada
-        jugada_ia = ia.decidir_jugada()
-
         # El humano juega
         jugada_humano = leer_jugada_humano()
+
+        # La IA decide su jugada
+        jugada_ia = ia.decidir_jugada()
 
         # Determinar resultado (desde perspectiva IA)
         resultado = obtener_resultado(jugada_ia, jugada_humano)

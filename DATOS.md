@@ -1,6 +1,6 @@
 # Documentacion de Recogida de Datos
 
-**Alumno:** ___________________
+**Alumno:** Zakaria Bourahla
 
 ## Formato del CSV
 
